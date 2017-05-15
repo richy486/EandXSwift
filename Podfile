@@ -6,9 +6,10 @@ target 'EandXSwift' do
   use_frameworks!
 
   # Pods for EandXSwift
-  pod 'RxSwift', '~> 3.4'
-  pod 'RxCocoa', '~> 3.4'
-  pod 'ReSwift', '~> 4.0'
+  pod 'RxSwift',    '~> 3.4'
+  pod 'RxCocoa',    '~> 3.4'
+  pod 'ReSwift',    '~> 4.0'
+  pod 'SwiftyJSON', '~> 3.1'
 
   target 'EandXSwiftTests' do
     inherit! :search_paths

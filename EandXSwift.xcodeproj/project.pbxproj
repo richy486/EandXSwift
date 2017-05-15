@@ -16,6 +16,9 @@
 		B98897861EC8F0A900F539A5 /* EandXSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98897851EC8F0A900F539A5 /* EandXSwiftTests.swift */; };
 		B98897911EC8F50C00F539A5 /* RxObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98897901EC8F50C00F539A5 /* RxObserver.swift */; };
 		B98897931EC8F5B200F539A5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98897921EC8F5B200F539A5 /* AppState.swift */; };
+		B98897951EC9099300F539A5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98897941EC9099300F539A5 /* Weather.swift */; };
+		B98897971EC90B3600F539A5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98897961EC90B3600F539A5 /* ViewModel.swift */; };
+		B98897991EC9263900F539A5 /* Secrets in Resources */ = {isa = PBXBuildFile; fileRef = B98897981EC9263900F539A5 /* Secrets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B98897871EC8F0A900F539A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B98897901EC8F50C00F539A5 /* RxObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxObserver.swift; sourceTree = "<group>"; };
 		B98897921EC8F5B200F539A5 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B98897941EC9099300F539A5 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		B98897961EC90B3600F539A5 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B98897981EC9263900F539A5 /* Secrets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Secrets; sourceTree = "<group>"; };
 		CD907E3D5AAE092EA6867299 /* Pods-EandXSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EandXSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EandXSwiftTests/Pods-EandXSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		D02C8CE1F68CE620E705D1BB /* Pods-EandXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EandXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EandXSwift/Pods-EandXSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,9 +121,12 @@
 				B98897701EC8F0A900F539A5 /* AppDelegate.swift */,
 				B98897721EC8F0A900F539A5 /* ViewController.swift */,
 				B98897901EC8F50C00F539A5 /* RxObserver.swift */,
+				B98897941EC9099300F539A5 /* Weather.swift */,
+				B98897961EC90B3600F539A5 /* ViewModel.swift */,
 				B98897771EC8F0A900F539A5 /* Assets.xcassets */,
 				B98897791EC8F0A900F539A5 /* LaunchScreen.storyboard */,
 				B988977C1EC8F0A900F539A5 /* Info.plist */,
+				B98897981EC9263900F539A5 /* Secrets */,
 			);
 			path = EandXSwift;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98897991EC9263900F539A5 /* Secrets in Resources */,
 				B988977B1EC8F0A900F539A5 /* LaunchScreen.storyboard in Resources */,
 				B98897781EC8F0A900F539A5 /* Assets.xcassets in Resources */,
 			);
@@ -338,6 +348,8 @@
 				B98897731EC8F0A900F539A5 /* ViewController.swift in Sources */,
 				B98897711EC8F0A900F539A5 /* AppDelegate.swift in Sources */,
 				B98897931EC8F5B200F539A5 /* AppState.swift in Sources */,
+				B98897971EC90B3600F539A5 /* ViewModel.swift in Sources */,
+				B98897951EC9099300F539A5 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 186776D1C3DD33C4406F3AF8 /* Pods-EandXSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KWV3LMSGNJ;
 				INFOPLIST_FILE = EandXSwift/Info.plist;
@@ -482,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D02C8CE1F68CE620E705D1BB /* Pods-EandXSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KWV3LMSGNJ;
 				INFOPLIST_FILE = EandXSwift/Info.plist;

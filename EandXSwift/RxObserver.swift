@@ -1,9 +1,7 @@
 //
 //  RxObserver.swift
-//  EandXSwift
 //
-//  Created by Richard Adem on 14/5/17.
-//  Copyright © 2017 Richard Adem. All rights reserved.
+//  https://medium.com/littlebigsnippets/using-rxswift-with-reswift-in-swift-redux-architecture-d342963c5ffe
 //
 
 import RxSwift
